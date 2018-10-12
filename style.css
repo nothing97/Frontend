@@ -241,11 +241,11 @@ div.list_game{
   color: #3c9054;
 }
 
-.title_game{font-size: 15px; font-weight: bold;}
+.title_game{font-size: 14px; font-weight: bold;}
 
 span.number_vote, span.view {color:  grey}
-span.number_view { color: red }
-div.info_game{ margin: 0px -12px;}
+span.number_view { color: red; font-weight: bold }
+div.info_game{ margin: 0px -23px;}
 div.active {
   background: #3c9054; padding: 3px 0px 3px 19px;
   position: relative;
