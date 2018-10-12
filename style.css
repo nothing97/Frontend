@@ -265,9 +265,29 @@ i.far.fa-plus-square {
 
 .view_more_prod {border: 1px solid}
 label.label_icon {background: #8dea8d}
+a{text-decoration: none;}
 
+/*Responsive cho game_list*/
 @media (max-width: 414px){
+  div.info_game {
+    height: 127px;
+  }
 
+  .img_game {width: 180px;
+    height: 115px;}
+
+  a.title_game{position: relative;
+    top: -116px;
+    left: 200px;}
+
+    .vote{position: relative;
+    top: -118px;
+    left: 199px;}
+
+    div.active {
+    position: relative;
+    top: -1px;
+  }
 }
 
      
