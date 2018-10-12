@@ -15,7 +15,7 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 .topnav a:hover {
@@ -207,7 +207,7 @@ a.map{color: #70dcef}
   padding-top: 10px; color: #ffb405;
 }
 
-.icon_network {font-size: 29px; position: relative;top: 14px; }
+.icon_network {font-size: 28px; position: relative;top: 14px; }
 
 .fb {color: #2a2a7d}
 .twit {color: #415cc7}
@@ -225,3 +225,36 @@ h4.redirect, .icon_contact {color: #f3b643}
 
 i.fab.fa-facebook-messenger{font-size: 25px}
 p.place, .author, .address_contact { font-size: 15px }
+
+div.product_game{
+  background: #46ad63; color: white; font-weight: bold;
+  margin-top:20px; padding: 5px;
+}
+
+div.list_game{
+  background: #efefef; color: white;  padding: 20px 10px 10px 0px;
+  overflow-x: scroll;
+}
+
+.title_game, span.score_vote{
+  color: #3c9054;
+}
+
+.title_game{font-size: 15px; font-weight: bold;}
+
+span.number_vote, span.view {color:  grey}
+span.number_view { color: red }
+div.info_game{ margin: 0px -12px;}
+div.active {
+  background: #3c9054; padding: 3px 0px 3px 19px;
+  position: relative;
+  top: -4px;
+  }
+
+label.label_new{
+   position: relative;
+    top: -23px;
+    left: 100px;
+}
+
+     
