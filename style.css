@@ -308,3 +308,7 @@ a{text-decoration: none;}
   }
 }
 
+.sukiengame.jumbotron {
+    padding: 0px 0px 15px 0px;
+    text-align: center;
+}
