@@ -189,7 +189,7 @@ button.icon_social{
 }
 
 div.video{margin-bottom: 20px}
-i.icon_view { color: blue; font-size: 20px}
+i.icon_view { color: #58ece7; font-size: 20px}
 
 .footer {
    position: relative;
@@ -328,3 +328,5 @@ a{text-decoration: none;}
     font-size: 21px;
     font-weight: 200;
 }
+
+button.btn-danger{background:#f52b25 }
