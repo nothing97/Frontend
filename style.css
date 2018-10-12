@@ -258,4 +258,12 @@ label.label_new{
     left: 100px;
 }
 
+i.far.fa-plus-square {
+    font-size: 85px;
+    color: mediumvioletred;
+}
+
+.view_more_prod {border: 1px solid}
+label.label_icon {background: #8dea8d}
+
      
