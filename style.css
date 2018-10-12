@@ -100,6 +100,11 @@ input[type=search]:focus {
   box-shadow: 0 0 5px rgba(109,207,246,.5);
 }
 
+input[type=search] {
+    position: relative;
+    top: 5px; outline: none;
+}
+
 
 input:-moz-placeholder {
   color: #999;
@@ -263,6 +268,8 @@ i.far.fa-plus-square {
     color: mediumvioletred;
 }
 
+a.tit_video{font-size: 20px; color: #d01a1a}
+
 .view_more_prod {border: 1px solid}
 label.label_icon {background: #8dea8d}
 a{text-decoration: none;}
@@ -288,6 +295,16 @@ a{text-decoration: none;}
     position: relative;
     top: -1px;
   }
+
+  input[type="search"] {
+    width: 5px;
+    height: 30px;
+  }
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
 }
 
-     
