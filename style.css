@@ -306,9 +306,26 @@ a{text-decoration: none;}
     display: block;
     text-align: center;
   }
+  img.img-circle{ max-width: 70px}
 }
 
 .sukiengame.jumbotron {
-    padding: 0px 0px 15px 0px;
+    padding: 1px 0px 15px 0px;
     text-align: center;
+    border-left: 10px solid red;
+    border-radius: 0px;
+    background: #a568f5b0;
+}
+
+.fas.fa-gamepad{color: blue; font-size: 25px}
+.fas.fa-gift {    color: #d0d00a;
+    font-size: 28px;}
+
+
+.btn_detail{font-size: ; border-radius: }
+
+.jumbotron p.event_content {
+    margin-bottom: -10px;
+    font-size: 21px;
+    font-weight: 200;
 }
