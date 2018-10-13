@@ -349,3 +349,12 @@ div#myTopnav {
     top: 0;
     z-index: 9999; ! important
 }
+
+div.vote{display: none; }
+.checked {
+    color: orange;
+}
+
+.unchecked {
+    color: grey;
+}
