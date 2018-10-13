@@ -342,3 +342,10 @@ div.header{
   background: #f0a52b;
   height: 90px;"
 }
+
+div#myTopnav {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 9999; ! important
+}
