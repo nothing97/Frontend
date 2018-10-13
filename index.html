@@ -199,7 +199,7 @@
           <img src="http://genknews.genkcdn.vn/zoom/220_160/2018/10/10/2-crop-15391594218771022618874.gif">
         </div>
         <div class="col-md-8">
-          <a href="#" class="title_new"><h4>Ngoài “hở hang” với chuyên buff độc ra thì nữ tướng này chả có gì hot, thế mà các đại gia vẫn phải chiêu mộ bằng được</h4></a>
+          <a href="#" class="title_new"><h4 class="title">Ngoài “hở hang” với chuyên buff độc ra thì nữ tướng này chả có gì hot, thế mà các đại gia vẫn phải chiêu mộ bằng được</h4></a>
 
           <p class="describe">Tô Anh hiện đang là mỹ nhân được mến mộ nhất trong Cổ Long Quần Hiệp Truyện, dù là đội hình đại gia hay dân cày cũng đều có mặt nàng ta.</p>
           <p class="time">
@@ -384,6 +384,16 @@
   <script type="text/javascript">
     $(function(){
       $('p.vote:lt(10)').append('<br><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star unchecked"></span><span class="fa fa-star unchecked"></span>');
+
+      // $('.title_new:lt(7)')prepend('<span><label class="label label-danger">Nổi bật<label></span>');
+
+    });
+  </script>
+
+  <script type="text/javascript">
+    $(function(){
+
+      $('a.title_new:lt(7)').prepend('<span><label class="label label-danger">Nổi bật<label></span>');
 
     });
   </script>
