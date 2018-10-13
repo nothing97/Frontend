@@ -6,6 +6,7 @@ body {
 .topnav {
   overflow: hidden;
   background-color: #392ea2;
+  margin-top: 50px;
 }
 
 .topnav a {
@@ -330,3 +331,14 @@ a{text-decoration: none;}
 }
 
 button.btn-danger{background:#f52b25 }
+img.logo{
+  max-width: 144px;
+  position: relative;
+  top: 8px;
+  border-radius: 50px;
+}
+
+div.header{
+  background: #f0a52b;
+  height: 90px;"
+}
