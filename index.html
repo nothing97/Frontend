@@ -383,17 +383,17 @@
 
   <script type="text/javascript">
     $(function(){
-      $('p.vote:lt(10)').append('<br><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star unchecked"></span><span class="fa fa-star unchecked"></span>');
+      $('p.vote:lt(4)').append('<br><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star unchecked"></span>');
 
-      // $('.title_new:lt(7)')prepend('<span><label class="label label-danger">Nổi bật<label></span>');
-
+       $('p.vote:gt(3)').append('<br><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star unchecked"></span><span class="fa fa-star unchecked"></span>');
     });
   </script>
 
   <script type="text/javascript">
     $(function(){
 
-      $('a.title_new:lt(7)').prepend('<span><label class="label label-danger">Nổi bật<label></span>');
+      $('a.title_new:lt(4)').prepend('<span><label class="label label-danger">Nổi bật<label></span>');
+      $('a.title_new:gt(3)').prepend('<span><label class="label label-danger">Hot<label></span>');
 
     });
   </script>
