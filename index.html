@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css">
   <script type="text/javascript" src="menu.js"></script>
+  <script type="text/javascript" src="tab.js"></script>
   <!-- <script type="text/javascript" src="effect health rain.js"></script> -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -159,6 +160,7 @@
       </div>
     </div>
 
+
     <div class="panel-group col-md-3" >
           <div class="panel panel-danger">
             <div class="panel-heading">VIDEO ĐÁNG CHÚ Ý
@@ -175,7 +177,191 @@
               </div>
             </div>
           </div>
-        </div>
+    </div>
+
+    <div class="tab col-md-9">
+      <button class="tablinks col-md-3" onclick="category_game(event, 'list_game')">DANH SÁCH GAME</button>
+      <button class="tablinks active col-md-1" onclick="category_game(event, 'new')">MỚI</button>
+      <button class="tablinks col-md-2" onclick="category_game(event, 'game_setup')">GAME CÀI ĐẶT</button>
+      <button class="tablinks col-md-2" onclick="category_game(event, 'web_game')">WEB GAME</button>
+      <button class="tablinks col-md-2" onclick="category_game(event, 'game_mobile')">GAME MOBILE</button>
+      <button class="tablinks col-md-2" onclick="category_game(event, 'view_all')">VIEW ALL</button>
+    </div>
+
+    <div id="list_game" class="tabcontent col-md-9">
+      <h3>nothing</h3>
+    </div>
+
+    <div id="new" class="tabcontent col-md-9">
+      <div class="col-md-2 trochoi">
+        <img src="http://genknews.genkcdn.vn/zoom/120_90/2015/ava-1418293414681-1421491095136.jpg" class="img_game">
+        <h4 ><a href="" class="title_game">Liên Minh HT</a></h4>
+        <p class="vote">
+          <span class="score_vote">8,5đ/</span> 
+          <span class="number_vote">1403 vote</span>
+        </p>
+        <p class="num_vote">
+          <span class="number_view">1329499</span> 
+          <span class="view"><i class="far fa-eye"></i></span>
+        </p>
+      </div>
+
+      <div class="col-md-2 trochoi">
+        <img src="http://genknews.genkcdn.vn/zoom/120_90/2018/5/29/avatar-1527562630288574782174.png" class="img_game">
+        <h4 ><a href="" class="title_game">Làng lá PNK</a></h4>
+        <p class="vote">
+          <span class="score_vote">8,5đ/</span> 
+          <span class="number_vote">1403 vote</span>
+        </p>
+        <p class="num_vote">
+          <span class="number_view">1329499</span> 
+          <span class="view"><i class="far fa-eye"></i></span>
+        </p>
+      </div>
+
+      <div class="col-md-2 trochoi">
+        <img src="http://genknews.genkcdn.vn/zoom/120_90/2018/9/14/avatargamek-1536919400077190360607.png" class="img_game">
+        <h4 ><a href="" class="title_game">Cổ long QHT</a></h4>
+        <p class="vote">
+          <span class="score_vote">8,5đ/</span> 
+          <span class="number_vote">1403 vote</span>
+        </p>
+        <p class="num_vote">
+          <span class="number_view">1329499</span> 
+          <span class="view"><i class="far fa-eye"></i></span>
+        </p>
+      </div>
+
+      <div class="col-md-2 trochoi">
+        <img src="http://genknews.genkcdn.vn/zoom/120_90/2017/9-1506336264969.jpg" class="img_game">
+        <h4 ><a href="" class="title_game">FIFa online 3</a></h4>
+        <p class="vote">
+          <span class="score_vote">8,5đ/</span> 
+          <span class="number_vote">1403 vote</span>
+        </p>
+        <p class="num_vote">
+          <span class="number_view">1329499</span> 
+          <span class="view"><i class="far fa-eye"></i></span>
+        </p>
+      </div>
+
+      <div class="col-md-2 trochoi">
+        <img src="http://genknews.genkcdn.vn/zoom/120_90/2014/1-38595.jpg" class="img_game">
+        <h4 ><a href="" class="title_game">Lộc Đỉnh Ký</a></h4>
+        <p class="vote">
+          <span class="score_vote">8,5đ/</span> 
+          <span class="number_vote">1403 vote</span>
+        </p>
+        <p class="num_vote">
+          <span class="number_view">1329499</span> 
+          <span class="view"><i class="far fa-eye"></i></span>
+        </p>
+      </div>
+
+      <div class="col-md-2 trochoi">
+        <img src="http://genknews.genkcdn.vn/zoom/120_90/2018/5/29/avatar-1527562630288574782174.png" class="img_game">
+        <h4 ><a href="" class="title_game">Làng Lá PNK</a></h4>
+        <p class="vote">
+          <span class="score_vote">8,5đ/</span> 
+          <span class="number_vote">1403 vote</span>
+        </p>
+        <p class="num_vote">
+          <span class="number_view">1329499</span> 
+          <span class="view"><i class="far fa-eye"></i></span>
+        </p>
+      </div>
+    </div>
+
+    <div id="game_setup" class="tabcontent col-md-9">
+      <div class="col-md-2 trochoi">
+        <img src="http://genknews.genkcdn.vn/zoom/120_90/2017/1-1507800128700.jpg" class="img_game">
+        <h4 ><a href="" class="title_game">Tào Tháo PK</a></h4>
+        <p class="vote">
+          <span class="score_vote">8,5đ/</span> 
+          <span class="number_vote">1403 vote</span>
+        </p>
+        <p class="num_vote">
+          <span class="number_view">1329499</span> 
+          <span class="view"><i class="far fa-eye"></i></span>
+        </p>
+      </div>
+
+      <div class="col-md-2 trochoi">
+        <img src="http://genknews.genkcdn.vn/zoom/120_90/2018/10/13/1024-153940317539932525747.png" class="img_game">
+        <h4 ><a href="" class="title_game">Liệt hỏa 3D</a></h4>
+        <p class="vote">
+          <span class="score_vote">8,5đ/</span> 
+          <span class="number_vote">1403 vote</span>
+        </p>
+        <p class="num_vote">
+          <span class="number_view">1329499</span> 
+          <span class="view"><i class="far fa-eye"></i></span>
+        </p>
+      </div>
+    </div>
+
+    <div id="web_game" class="tabcontent col-md-9">
+      <div class="col-md-2 trochoi">
+        <img src="http://genknews.genkcdn.vn/zoom/120_90/2018/3/19/36-152144877239964216447.jpg" class="img_game">
+        <h4 ><a href="" class="title_game">Kiếm khách VNG</a></h4>
+        <p class="vote">
+          <span class="score_vote">8,5đ/</span> 
+          <span class="number_vote">1403 vote</span>
+        </p>
+        <p class="num_vote">
+          <span class="number_view">1329499</span> 
+          <span class="view"><i class="far fa-eye"></i></span>
+        </p>
+      </div>
+
+      <div class="col-md-2 trochoi">
+        <img src="http://genknews.genkcdn.vn/zoom/120_90/2018/2/6/1-15179166481938034613.png" class="img_game">
+        <h4 ><a href="" class="title_game">Thần thoại PK</a></h4>
+        <p class="vote">
+          <span class="score_vote">8,5đ/</span> 
+          <span class="number_vote">1403 vote</span>
+        </p>
+        <p class="num_vote">
+          <span class="number_view">1329499</span> 
+          <span class="view"><i class="far fa-eye"></i></span>
+        </p>
+      </div>
+    </div>
+
+    <div id="game_mobile" class="tabcontent col-md-9">
+      <div class="col-md-2 trochoi">
+        <img src="http://genknews.genkcdn.vn/zoom/120_90/2018/7/16/avatar-15317153307271151219494.png" class="img_game">
+        <h4 ><a href="" class="title_game">Thiên hạ anh hùng</a></h4>
+        <p class="vote">
+          <span class="score_vote">8,5đ/</span> 
+          <span class="number_vote">1403 vote</span>
+        </p>
+        <p class="num_vote">
+          <span class="number_view">1329499</span> 
+          <span class="view"><i class="far fa-eye"></i></span>
+        </p>
+      </div>
+
+      <div class="col-md-2 trochoi">
+        <img src="http://genknews.genkcdn.vn/zoom/120_90/2018/10/1/avatr-15383872206521593506140.jpg" class="img_game">
+        <h4 ><a href="" class="title_game">Tam sinh tam thế</a></h4>
+        <p class="vote">
+          <span class="score_vote">8,5đ/</span> 
+          <span class="number_vote">1403 vote</span>
+        </p>
+        <p class="num_vote">
+          <span class="number_view">1329499</span> 
+          <span class="view"><i class="far fa-eye"></i></span>
+        </p>
+      </div>
+    </div>
+
+    <div id="view_all" class="tabcontent col-md-9">
+      <h3>nothing</h3>
+    </div>
+
+
+
 
 
     <br><br>
@@ -392,8 +578,8 @@
   <script type="text/javascript">
     $(function(){
 
-      $('a.title_new:lt(4)').prepend('<span><label class="label label-danger">Nổi bật<label></span>');
-      $('a.title_new:gt(3)').prepend('<span><label class="label label-danger">Hot<label></span>');
+      $('a.title_new:lt(4)').prepend('<span><label class="label label-danger laybo">Nổi bật<label></span>');
+      $('a.title_new:gt(3)').prepend('<span><label class="label label-danger laybo">Hot<label></span>');
 
     });
   </script>
