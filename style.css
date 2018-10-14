@@ -213,8 +213,7 @@ a.map{color: #70dcef}
   padding-top: 10px; color: #ffb405;
 }
 
-.icon_network {font-size: 28px; position: relative;top: -15px;
-    left: -30px; }
+.icon_network {font-size: 28px; position: relative;top: 14px; }
 
 .fb {color: #2a2a7d}
 .twit {color: #415cc7}
@@ -302,6 +301,15 @@ a{text-decoration: none;}
     height: 30px;
   }
 
+/*  .col-md-3.col-xs-9.list_game {
+    position: relative;
+    left: -22px;
+  }
+
+  .tab button.active {
+    margin-left: -35px;
+  }
+*/
   .topnav.responsive a {
     float: none;
     display: block;
