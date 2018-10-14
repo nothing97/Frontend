@@ -179,7 +179,7 @@ button.icon_social{
 @media(max-width :411px ){
   div.content{ padding: 0px; }
   input[type=search]{ padding: 3px 2px 5px 38px; margin-top: 4px; }
-  iframe{ max-width:360px; }
+  iframe{ max-width:313px; }
 
   img { width: 400px; padding-left: 17px;}
 
@@ -415,6 +415,8 @@ div.vote{display: none; }
   .topnav {
     margin-top: -40px;
   }
+
+
 
 }
 
