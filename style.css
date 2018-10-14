@@ -420,6 +420,19 @@ div.vote{display: none; }
 
 }
 
-@media(min-width: 414px and max-width: 768px){
+@media(min-width: 414px) and (max-width: 768px){
+  input[type="search"] {
+    width: 0px;
+  }
 
+  div.active {
+    position: relative;
+     top: 0px; 
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: #392ea2;
+    margin-top: -40px;
+  }
 }
