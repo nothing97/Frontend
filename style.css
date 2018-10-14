@@ -213,7 +213,8 @@ a.map{color: #70dcef}
   padding-top: 10px; color: #ffb405;
 }
 
-.icon_network {font-size: 28px; position: relative;top: 14px; }
+.icon_network {font-size: 28px; position: relative;top: -15px;
+    left: -30px; }
 
 .fb {color: #2a2a7d}
 .twit {color: #415cc7}
@@ -416,7 +417,19 @@ div.vote{display: none; }
     margin-top: -40px;
   }
 
+  .panel-group {
+    margin: 15px;
+  }
 
+  .col-md-12.new {
+    width: 343px;
+  }
+
+  .col-md-2.trochoi {
+    margin: 0px 0px 0px -30px;
+  }
+
+  div.info_game{margin: 0px 0px 0px -25px;}
 
 }
 
@@ -434,5 +447,9 @@ div.vote{display: none; }
     overflow: hidden;
     background-color: #392ea2;
     margin-top: -40px;
+  }
+
+  .panel-group {
+    margin: 15px;
   }
 }
