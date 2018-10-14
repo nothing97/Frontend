@@ -178,7 +178,6 @@ button.icon_social{
 
 @media(max-width :411px ){
   div.content{ padding: 0px; }
-  div.new{ width: 395px; }
   input[type=search]{ padding: 3px 2px 5px 38px; margin-top: 4px; }
   iframe{ max-width:360px; }
 
@@ -396,7 +395,7 @@ div.vote{display: none; }
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
-    overflow-x: scroll;
+    /*overflow-x: scroll;*/
     background: #efefef;
 }
 
@@ -416,4 +415,9 @@ div.vote{display: none; }
   .topnav {
     margin-top: -40px;
   }
+
+}
+
+@media(min-width: 414px and max-width: 768px){
+
 }
