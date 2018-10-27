@@ -27,7 +27,7 @@
 </head>
 
 <body>
-  <div class="container">
+  <div class="container body">
     <div class="col-md-12 header">
       <div class="col-md-3 logo">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUDd8cuQ3yBBwnRHPkfowq4wEyrn1_oFIj8shRxw45VUArfgMs" class="logo" >  
@@ -62,18 +62,16 @@
       </div>
     </div>
 
-    <div class="product_game col-md-9 "> 
-        <div class="col-md-3">DANH SÁCH GAME</div>
-        <div class="col-md-1 active">MỚI</div>
-        <div class="col-md-2">GAME CÀI ĐẶT</div>
-        <div class="col-md-2">WEB GAME</div>
-        <div class="col-md-2">GAME MOBILE 
-          <!-- <sup><label class="label label-danger label_new">mới</label></sup>  -->
-        </div>
-        <div class="col-md-2">View all</div>
-    </div>
+    <!-- <div class="product_game col-md-9 "> 
+      <div class="col-md-3">DANH SÁCH GAME</div>
+      <div class="col-md-1 active">MỚI</div>
+      <div class="col-md-2">GAME CÀI ĐẶT</div>
+      <div class="col-md-2">WEB GAME</div>
+      <div class="col-md-2">GAME MOBILE</div>
+      <div class="col-md-2">View all</div>
+    </div> -->
 
-    <div class="list_game col-md-9">
+   <!--  <div class="list_game col-md-9">
       <div class="container" style="border: 0px">
          <div class="col-md-2 col-sm-3 info_game">
             <img src="http://genknews.genkcdn.vn/zoom/120_90/2015/ava-1418293414681-1421491095136.jpg" class="img_game">
@@ -154,26 +152,7 @@
             </p>
          </div>
       </div>
-    </div>
-
-
-    <div class="panel-group col-md-3 wow slideInDown" >
-          <div class="panel panel-danger">
-            <div class="panel-heading">VIDEO ĐÁNG CHÚ Ý
-              <i class="fas fa-arrow-right pull-right"></i>
-            </div>
-            <div class="panel-body video_hot">
-              <div class="col-md-4">
-                <iframe src="" width="70px" height="50px"></iframe>
-              </div>
-              <div class="col-md-8">
-                <a href="#">
-                  LMHT: Nhìn lại những lần Quỷ Vương Faker bị solo kill trong các giải đấu chuyên nghiệp
-                </a>
-              </div>
-            </div>
-          </div>
-    </div>
+    </div> -->
 
     <div class="tab col-md-9">
       <button class="tablinks col-md-2 col-xs-6 list_game" onclick="category_game(event, 'list_game')">LIST GAME</button>
@@ -181,7 +160,7 @@
       <button class="tablinks col-md-2 col-xs-6" onclick="category_game(event, 'game_setup')">GAME CÀI ĐẶT</button>
       <button class="tablinks col-md-2 col-xs-6" onclick="category_game(event, 'web_game')">WEB GAME</button>
       <button class="tablinks col-md-2 col-xs-6" onclick="category_game(event, 'game_mobile')">GAME MOBILE</button>
-      <button class="tablinks col-md-3 col-xs-6" onclick="category_game(event, 'view_all')">XEM TẤT chả</button>
+      <button class="tablinks col-md-3 col-xs-6" onclick="category_game(event, 'view_all')">XEM TẤT CẢ</button>
     </div>
 
     <div id="list_game" class="tabcontent col-md-9 col-sm-12">
@@ -356,6 +335,27 @@
       <h3>nothing</h3>
     </div>
 
+    <div class="panel-group col-md-3 wow slideInDown" >
+      <div class="panel panel-danger">
+        <div class="panel-heading">VIDEO ĐÁNG CHÚ Ý
+          <i class="fas fa-arrow-right pull-right"></i>
+        </div>
+        <div class="panel-body video_hot">
+          <div class="col-md-4">
+            <iframe src="https://www.youtube.com/embed/SQ0FrpZ182Q?ecver=2" 
+             width="70px" height="50px" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+             </iframe>
+          </div>
+
+          <div class="col-md-8">
+            <a href="#">
+              LMHT: Nhìn lại những lần Quỷ Vương Faker bị solo kill trong các giải đấu chuyên nghiệp
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="col-md-12 new wow flash" >
       <h2 class="top" id="new_update">
         <a href="#" class="news_update">MỚI CẬP NHẬT</a>
@@ -369,8 +369,9 @@
       </div>
     </div>
 
+
+
     <br><br>
-  <!--   <div class="col-md-12"> -->
       <div class="col-md-9 content wow slideInLeft">
         <div class="col-md-4 news ">
           <img src="http://genknews.genkcdn.vn/zoom/220_160/2018/10/10/2-crop-15391594218771022618874.gif">
@@ -393,7 +394,7 @@
           <img src="http://genknews.genkcdn.vn/zoom/310_200/2018/10/10/xzeus-battlegrounds-early-access-imagejpgpagespeedicatxqj03bln-1539172063977138413663.jpg">
         </div>
         <div class="col-md-7 tintuc1">
-          <a href="#" class="title_new"><h4>Game "PUBG Thần Thánh" - Zeus’ Battlegrounds chính thức mở cửa miễn phí, còn chờ gì nữa mà không vào chơi nhỉ</h4></a>
+          <a href="#" class="title_new"><h4 class="title">Game "PUBG Thần Thánh" - Zeus’ Battlegrounds chính thức mở cửa miễn phí, còn chờ gì nữa mà không vào chơi nhỉ</h4></a>
           <p class="describe">Zeus’ Battlegrounds đã mở cửa thử nghiệm hoàn toàn miễn phí thông qua hệ thống Steam và ai cũng vào chơi được.</p>
           <p class="time">
             <a href="javascript:void(0);" class="author">Nipp</a>
@@ -410,7 +411,7 @@
           <img src="http://genknews.genkcdn.vn/zoom/310_200/2018/10/10/dai-dien-vng-noi-gi-ve-so-phan-cua-pubg-mobile-o-thi-truong-vn-4-15391705488331283962900.jpg">
         </div>
         <div class="col-md-7 tintuc1">
-          <a href="#" class="title_new"><h4>VNG nói gì về thông tin PUBG Mobile được đưa về Việt Nam?</h4></a>
+          <a href="#" class="title_new"><h4 class="title">VNG nói gì về thông tin PUBG Mobile được đưa về Việt Nam?</h4></a>
           <p class="describe">Tô Anh hiện đang là mỹ nhân được mến mộ nhất trong Cổ Long Quần Hiệp Truyện, dù là đội hình đại gia hay dân cày cũng đều có mặt nàng ta.</p>
           <p class="time">
             <a href="javascript:void(0);" class="author">Nipp</a>
@@ -444,7 +445,7 @@
           <img src="http://genknews.genkcdn.vn/zoom/310_200/2018/10/10/naruomovieliveaction-crop-15391473637501650090406.jpg">
         </div>
         <div class="col-md-7 tintuc1">
-          <a href="#" class="title_new"><h4>VNG nói gì về thông tin PUBG Mobile được đưa về Việt Nam?</h4></a>
+          <a href="#" class="title_new"><h4 class="title">VNG nói gì về thông tin PUBG Mobile được đưa về Việt Nam?</h4></a>
           <p class="describe">Tô Anh hiện đang là mỹ nhân được mến mộ nhất trong Cổ Long Quần Hiệp Truyện, dù là đội hình đại gia hay dân cày cũng đều có mặt nàng ta.</p>
           <p class="time">
             <a href="javascript:void(0);" class="author">Nipp</a>
@@ -461,7 +462,7 @@
           <img src="http://genknews.genkcdn.vn/zoom/310_200/2018/10/10/httpchannelvcmediavnprupload156201810img20181010152538464-15391614094891599785854.jpg">
         </div>
         <div class="col-md-7 tintuc1">
-          <a href="#" class="title_new"><h4>VNG nói gì về thông tin PUBG Mobile được đưa về Việt Nam?</h4></a>
+          <a href="#" class="title_new"><h4 class="title">VNG nói gì về thông tin PUBG Mobile được đưa về Việt Nam?</h4></a>
           <p class="describe">Tô Anh hiện đang là mỹ nhân được mến mộ nhất trong Cổ Long Quần Hiệp Truyện, dù là đội hình đại gia hay dân cày cũng đều có mặt nàng ta.</p>
           <p class="time">
             <a href="javascript:void(0);" class="author">Nipp</a>
@@ -498,7 +499,7 @@
           <img src="http://genknews.genkcdn.vn/zoom/310_200/2018/10/10/skin-ngoi-sao-am-nhac-1539140418830914221538.jpg">
         </div>
         <div class="col-md-7 tintuc1">
-          <a href="#" class="title_new"><h4>VNG nói gì về thông tin PUBG Mobile được đưa về Việt Nam?</h4></a>
+          <a href="#" class="title_new"><h4 class="title">VNG nói gì về thông tin PUBG Mobile được đưa về Việt Nam?</h4></a>
           <p class="describe">Tô Anh hiện đang là mỹ nhân được mến mộ nhất trong Cổ Long Quần Hiệp Truyện, dù là đội hình đại gia hay dân cày cũng đều có mặt nàng ta.</p>
           <p class="time">
             <a href="javascript:void(0);" class="author">Nipp</a>
@@ -561,8 +562,113 @@
           </a>
         </div>                          
       </div>
+
+      <div class="col-md-9 new_feed1">
+        <div class="col-md-4 new1">
+          <h4><a href="" class="new1">2-TEK</a></h4>
+          <a href="">
+            <img src="http://kenh14cdn.com/zoom/210_131/2018/10/27/photo1540645397994-1540645397994297316228.jpg">
+          </a>
+          <p class="tit_new"><a href="">Người dùng Việt chọn iPhone X thay vì bỏ 23 triệu mua iPhone XR</a></p>
+        </div>
+
+        <div class="col-md-4 new1">
+          <h4><a href="" class="new1">KHÁM PHÁ</a></h4>
+          <a href="">
+            <img src="http://kenh14cdn.com/zoom/210_131/2018/10/27/photo1540620478100-1540620478100441174756.jpg">
+          </a>
+          <p class="tit_new"><a href="">3 câu đố siêu khó thử tài những cái đầu logic nhất - đó có phải là bạn không?</a></p>
+        </div>
+
+        <div class="col-md-4 new1">
+          <h4><a href="" class="new1">ĂN CẢ THẾ GIỚI</a></h4>
+          <a href="">
+            <img src="http://kenh14cdn.com/zoom/210_131/2018/10/27/photo1540619075817-15406190758171795283211.jpg">
+          </a>
+          <p class="tit_new"><a href="">Muôn kiểu thưởng thức thịt nướng của người Sài Gòn, bạn đã thử hết chưa?</a></p>
+        </div>
+      </div>
+
+      <div class="col-md-9 new_feed1">
+        <div class="col-md-4 new1">
+          <h4><a href="" class="new1">NÓNG TRÊN MẠNG</a></h4>
+          <a href="">
+            <img src="http://kenh14cdn.com/zoom/210_131/2018/10/25/photo1540481979834-15404819798352045912205.png">
+          </a>
+          <p class="tit_new"><a href="">Phượng “Thị Nở” bất ngờ bị ngã trầy xước mặt mũi sau gần 2 năm thẩm mỹ khiến nhiều người lo lắng</a></p>
+        </div>
+
+        <div class="col-md-4 new1">
+          <h4><a href="" class="new1">HỌC ĐƯỜNG</a></h4>
+          <a href="">
+            <img src="http://kenh14cdn.com/zoom/210_131/2018/10/27/photo1540611892625-15406118926252098815118.jpg">
+          </a>
+          <p class="tit_new"><a href="">Khám phá cuộc sống của 1 sinh viên ngành Y: Ngoài giải phẫu, trực nhà xác còn có nhiều điều thú vị lắm</a></p>
+        </div>
+
+        <div class="col-md-4 new1">
+          <h4><a href="" class="new1">DU LỊCH</a></h4>
+          <a href="">
+            <img src="http://kenh14cdn.com/zoom/210_131/2018/10/26/photo1540525322077-15405253220781046906569.jpg">
+          </a>
+          <p class="tit_new"><a href="">Đà Lạt vừa có ngôi làng thu nhỏ châu Âu mới cực hợp để ghé thăm mùa đông này!</a></p>
+        </div>
+      </div>
+       
+
+      <div class="col-md-9 new_feed1">
+        <div class="col-md-4 new2">
+          <h4><a href="" class="new2">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStX2tsqgjld6uI2S5TdDogrstczkG3hP4QfnCZALBpxLv66KGuqA" class="logo_soha"> TIN HOT TRÊN SOHA</a></h4>
+          <a href="">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjRDSn2xqI3FgxvjydyqGWJwDUAuvOIy3PKRINk402I3iyRA5Cqg" class="img_new">
+          </a>
+          <p class="tit_new"><a href="">Hot girl ^^</a></p>
+        </div>
+
+        <div class="col-md-4 new2">
+          <h4><a href="" class="new2">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStX2tsqgjld6uI2S5TdDogrstczkG3hP4QfnCZALBpxLv66KGuqA" class="logo_soha"> TIN HAY AFAMILY</a></h4>
+          <a href="">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8DJGYewNJSQptOxh6Ke3A9bnkA_vdFfoxnozAk-1VvDCyLOBM" class="img_new">
+          </a>
+          <p class="tit_new"><a href="">Hot girl ^^</a></p>
+        </div>
+
+        <div class="col-md-4 new2">
+          <h4><a href="" class="new2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStX2tsqgjld6uI2S5TdDogrstczkG3hP4QfnCZALBpxLv66KGuqA" class="logo_soha"> ĐẸP</a></h4>
+          <a href="">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4kdy6TRKNPOwxBY9EOU0vt-lpNVWBs28CgEjwZAES0xy_7eLwLw" class="img_new">
+          </a>
+          <p class="tit_new"><a href="">Hot girl ^^</a></p>
+        </div>
+      </div>
       
-<!--     </div> -->
+      <div class="panel-group col-md-9">
+        <div class="panel panel-primary">
+          <div class="panel-heading">ĐÁNG CHÚ Ý</div>
+          <div class="panel-body">
+            <div class="col-md-4">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8DJGYewNJSQptOxh6Ke3A9bnkA_vdFfoxnozAk-1VvDCyLOBM" class="img_new">
+            </div>
+            <div class="col-md-8">
+              <h4 class="title"><a href="">Sự cố hot nhất toàn thế giới đêm nay: Tân Hoa hậu vừa đăng quang đã ngất xỉu!</a></h4>
+              <span class="num_view"><i class="far fa-eye"></i> 332.000</span>
+              <span class="num_share"><i class="fab fa-facebook-f"></i> 6939</span>
+            </div>
+
+            <div class="clearfix"></div>
+            <div class="col-md-4">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8DJGYewNJSQptOxh6Ke3A9bnkA_vdFfoxnozAk-1VvDCyLOBM" class="img_new">
+            </div>
+            <div class="col-md-8">
+              <h4 class="title"><a href="">Sự cố hot nhất toàn thế giới đêm nay: Tân Hoa hậu vừa đăng quang đã ngất xỉu!</a></h4>
+              <span class="num_view"><i class="far fa-eye"></i> 332.000</span>
+              <span class="num_share"><i class="fab fa-facebook-f"></i> 6939</span>
+            </div>
+          </div>
+        </div>
+      </div>
     
 
     <button class="btn btn-danger col-md-9 col-xs-12 col-sm-12 view_more wow fadeInDown">

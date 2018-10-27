@@ -345,7 +345,7 @@ div.vote{display: none; }
   }
 }
 
-.col-md-2.col-sm-2.trochoi { margin-left: -15px;}
+.col-md-2.col-sm-2.trochoi {    margin: 5px -10px 0px 0px;}
 
 .col-md-3.event, div.event1{
     border: 1px solid white;
@@ -444,3 +444,63 @@ p.text-center{color: #f5a84d; font-size: 18px}
 
 
 /* End carousel */
+
+a.new1{
+  border-left: 5px solid #ff5b00;  padding-left: 10px;color: black; font-weight: bold;
+}
+
+div.new1, div.new2{
+  padding-left: 0px;
+}
+
+
+p.tit_new {
+  width: 214px;
+  padding: 10px 0px 0px 0px;
+}
+
+h4.title{
+  font-weight: bold;
+}
+
+a.new2{
+ padding-left: 10px;color: black; font-weight: bold; 
+}
+
+img.logo_soha {
+    max-width: 10%;     margin-left: -10px;
+}
+
+.col-md-9.new_feed1 {
+    margin-bottom: 20px;
+}
+
+.col-md-9.wow.fadeInUp.animated {
+    margin-bottom: 30px;
+}
+
+img.img_new {
+    width: 212px;
+    height: 200px;
+}
+
+.container.body {
+    padding: 0px 0px 5px 0px;
+    box-shadow: 10px 10px 5px #aaaa;
+}
+
+span.num_view{
+  margin-right: 40px;
+}
+
+i.far.fa-eye {
+    color: #f90404;
+}
+
+i.fab.fa-facebook-f {
+    color: blue;
+}
+
+.panel-body {
+    background: #efb954;
+}
